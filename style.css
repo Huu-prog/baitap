@@ -1,0 +1,80 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin: 0;
+} 
+body{
+	margin: auto;
+	width:78%;
+	background:#441e13;
+	border: 1px solid black;
+}
+.banner{
+	height: 15px;
+	padding: 15px 0;
+	margin-left: 15px; 
+}
+.menu ul{
+	height: 35px;
+	border: 1px solid black;
+	background-color: #38170e;
+}
+.menu ul li{
+	line-height: 35px;
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	border-right:1px solid #070606;
+	display: block;
+	padding:0 10px;
+	color: #f3f2f2;
+}
+.menu ul li a:hover{
+	color:green ;
+	background-color: aqua;
+}
+.main_body{
+	display: flex;
+	margin-top: 5px;
+}
+.sidebar{
+	flex-basis: 30%;
+	background-color: #96afac;
+}
+.container{
+	flex-basis:70%;
+	height: 100%;
+}
+.sidebar ul{
+	line-height: 35px;
+	margin-top: 5px;
+}
+.sidebar h2{
+	color: red;
+	text-align: center;
+	border-bottom:1px  solid #070606 ;
+	
+}
+.sidebar ul li{
+	list-style: none;
+	border-bottom:1px  solid #070606 ;
+	margin: 0 15px;
+	
+}
+.sidebar ul li a{
+	text-decoration: none;
+	margin-left: 15px;
+	display: block;
+}
+.sidebar ul li a:hover{
+	color: rgb(2, 98, 66);
+	background-color: aqua;
+}
+footer{
+	margin-top: 5px;
+	background-color: aqua;
+	text-align: center;
+}
+
